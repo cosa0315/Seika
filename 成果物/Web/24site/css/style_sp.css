@@ -1,0 +1,113 @@
+@charset "utf-8";
+body{
+	margin: 0px;
+}
+img{
+	max-width: 100%;/*画像横幅画面の１００％*/
+	height: auto;
+}
+.cont{
+	width: 100%;
+}
+.sns{
+	display: none;
+}
+.spslide{/*スマートフォン用のスライド作りかけ*/
+	display: block;
+	position: relative;
+	width: 600px;
+	height: 274px;
+	overflow: hidden;
+}
+.spslide ul{
+	position: absolute;
+	display: flex;
+	width: 1800px;
+	list-style: none;
+	padding: 0;
+	margin: 0px;
+}
+.spslide li{
+	width: 1800px;
+}
+.slide{
+	display: none;
+}
+.spbutton{
+	display: block;/*ボタンを表示する*/
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	cursor: pointer;/*マウスのせると指マーク*/
+}
+.slide{
+	width: auto;
+}
+.nav{
+	display: none;
+}
+.spnav ul{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+.spnav li{
+	border-bottom: 1px solid #FFFFFF;
+}
+.spnav li:last-child{
+	border: none;
+}
+.spnav a{
+	display: block;
+	background-color: #6D8EE7;
+	text-align: center;
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 10px;
+}
+.spnav a:hover{
+	background-color: #3263E7;
+}
+.spp{
+	display: block;
+}
+/*クリックしたら説明が飛び出すようにしたい*/
+.spphoto{
+	display: block;
+	text-align: center;
+	padding: 0px;
+	padding-bottom: 20px;
+	border-radius: 220px;
+	cursor: pointer;
+}
+.spphoto img{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+figure{
+	text-align: center;
+}
+.setumei{
+	text-align: center;
+}
+.photo{
+	display: none;
+}
+.animal p{
+	display: none;
+}
+table{
+	margin-right: 10px;
+}
+.bg{
+	position: fixed;/*固定*/
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+}
